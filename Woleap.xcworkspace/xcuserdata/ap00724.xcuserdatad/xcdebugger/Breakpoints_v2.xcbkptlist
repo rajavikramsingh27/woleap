@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Woleap/View Controllers/New_Achiv_PopUp_ViewController/New_Achiv_PopUp_ViewController.swift"
+            timestampString = "597416907.562623"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "add_any_event(event_type:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Woleap.New_Achiv_PopUp_ViewController.add_any_event(event_type: Woleap.New_Achiv_PopUp_ViewController.event_type) -&gt; ()"
+                  moduleName = "Woleap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ap00724/Documents/developement%20office/ap0024-woleap-without-api-raja-f2c748beec80/Woleap/View%20Controllers/New_Achiv_PopUp_ViewController/New_Achiv_PopUp_ViewController.swift"
+                  timestampString = "597416907.783975"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "11105">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; () in Woleap.New_Achiv_PopUp_ViewController.add_any_event(event_type: Woleap.New_Achiv_PopUp_ViewController.event_type) -&gt; ()"
+                  moduleName = "Woleap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ap00724/Documents/developement%20office/ap0024-woleap-without-api-raja-f2c748beec80/Woleap/View%20Controllers/New_Achiv_PopUp_ViewController/New_Achiv_PopUp_ViewController.swift"
+                  timestampString = "597416907.786015"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "47">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Woleap/View Controllers/NewAchivementsViewController/NewAchivementsViewController.swift"
+            timestampString = "597418081.471706"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

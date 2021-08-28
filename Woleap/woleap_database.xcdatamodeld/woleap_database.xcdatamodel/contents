@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.98" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Get_archievement_data" representedClassName="Get_archievement_data" syncable="YES" codeGenerationType="class">
+        <attribute name="business_benefits" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="get_goals" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="skills" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Get_home_data" representedClassName="Get_home_data" syncable="YES" codeGenerationType="class">
+        <attribute name="dates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="get_archievements" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="get_goals" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="get_tasks" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Login" representedClassName="Login" syncable="YES" codeGenerationType="class">
+        <attribute name="created" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="due_to" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_active" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="login_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="social_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start_time" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Get_home_data" positionX="-56.8515625" positionY="36.83984375" width="128" height="28"/>
+        <element name="Login" positionX="-63" positionY="-18" width="128" height="30"/>
+        <element name="Get_archievement_data" positionX="-63" positionY="0" width="128" height="105"/>
+    </elements>
+</model>

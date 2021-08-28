@@ -1,0 +1,902 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D710E012E76F3C970596709 /* Pods_Woleap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C316D43D1A3B068ED4024B1 /* Pods_Woleap.framework */; };
+		8304AC2422C0EC53004E0D60 /* TechPopupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8304AC2322C0EC53004E0D60 /* TechPopupTableViewCell.swift */; };
+		8312746E22DF15EA006CC208 /* Splash_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312746D22DF15EA006CC208 /* Splash_ViewController.swift */; };
+		8312747022DF161E006CC208 /* Model_Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312746F22DF161E006CC208 /* Model_Splash.swift */; };
+		8312747222DF23B0006CC208 /* Model_Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312747122DF23B0006CC208 /* Model_Calendar.swift */; };
+		8327E8C022C22B410092A729 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327E8BF22C22B410092A729 /* ListViewController.swift */; };
+		8327E8C222C22B8A0092A729 /* CreateGoal_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327E8C122C22B8A0092A729 /* CreateGoal_ViewController.swift */; };
+		8327E8C422C22ED90092A729 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327E8C322C22ED90092A729 /* NotificationViewController.swift */; };
+		8327E8C622C22EF60092A729 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327E8C522C22EF60092A729 /* SettingViewController.swift */; };
+		8327E8C822C22F1B0092A729 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327E8C722C22F1B0092A729 /* ReportsViewController.swift */; };
+		8327E8CA22C231990092A729 /* CalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327E8C922C231990092A729 /* CalendarTableViewCell.swift */; };
+		8327E8CC22C23DEA0092A729 /* Calender2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327E8CB22C23DEA0092A729 /* Calender2TableViewCell.swift */; };
+		834A726022C2444F0014924B /* CurveFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A725F22C2444F0014924B /* CurveFunc.swift */; };
+		834A726222C255D20014924B /* AchivementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A726122C255D20014924B /* AchivementTableViewCell.swift */; };
+		834ABA6222BCD2200075D9E8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834ABA6122BCD2200075D9E8 /* RegisterViewController.swift */; };
+		834B97BE22E1A85E00133BA2 /* Due_Next_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834B97BD22E1A85D00133BA2 /* Due_Next_ViewController.swift */; };
+		836480C022C32FA80067DDEB /* GoalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836480BF22C32FA80067DDEB /* GoalTableViewCell.swift */; };
+		836480C422C338250067DDEB /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836480C322C338250067DDEB /* ListTableViewCell.swift */; };
+		8370B7AB22C09E94006364F6 /* AchivementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8370B7AA22C09E94006364F6 /* AchivementViewController.swift */; };
+		8370B7AD22C09EF4006364F6 /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8370B7AC22C09EF4006364F6 /* GoalViewController.swift */; };
+		8385095A22E1E26100494945 /* check-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8385095922E1E26000494945 /* check-blue.png */; };
+		8385095C22E1E6C700494945 /* uncheck-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8385095B22E1E6C600494945 /* uncheck-green.png */; };
+		8385095E22E1FD1D00494945 /* Business_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8385095D22E1FD1D00494945 /* Business_TableViewCell.swift */; };
+		8385096022E1FD3100494945 /* Technology_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8385095F22E1FD3100494945 /* Technology_TableViewCell.swift */; };
+		838F0AEE22E1C96C00E7572F /* Tag_Goal_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838F0AED22E1C96C00E7572F /* Tag_Goal_CollectionViewCell.swift */; };
+		839D6B3722BCA6E700DA330D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839D6B3622BCA6E700DA330D /* AppDelegate.swift */; };
+		839D6B3C22BCA6E700DA330D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839D6B3A22BCA6E700DA330D /* Main.storyboard */; };
+		839D6B3E22BCA6E900DA330D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839D6B3D22BCA6E900DA330D /* Assets.xcassets */; };
+		839D6B4122BCA6E900DA330D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839D6B3F22BCA6E900DA330D /* LaunchScreen.storyboard */; };
+		839D6B4922BCAC0700DA330D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839D6B4822BCAC0700DA330D /* File.swift */; };
+		839D6B4D22BCAC7F00DA330D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839D6B4C22BCAC7F00DA330D /* LoginViewController.swift */; };
+		83B044C822E18A1200856012 /* New_Achiv_PopUp_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B044C722E18A1200856012 /* New_Achiv_PopUp_ViewController.swift */; };
+		83B044CA22E18F1C00856012 /* Date_Picker_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B044C922E18F1B00856012 /* Date_Picker_ViewController.swift */; };
+		83C5698D22C0D5CC00004110 /* NewAchivementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C5698C22C0D5CC00004110 /* NewAchivementsViewController.swift */; };
+		83EA431C22DDE5270052D0AC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EA431B22DDE5270052D0AC /* Constant.swift */; };
+		83EA431E22DDE7B00052D0AC /* JJHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EA431D22DDE7B00052D0AC /* JJHUD.swift */; };
+		83EA432022DDE82C0052D0AC /* APIFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EA431F22DDE82C0052D0AC /* APIFunc.swift */; };
+		83EA432222DDE8C60052D0AC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EA432122DDE8C60052D0AC /* Reachability.swift */; };
+		83EA432422DDF2500052D0AC /* Model_Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EA432322DDF2500052D0AC /* Model_Register.swift */; };
+		83EBDD9D22BD004E00F60753 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBDD9C22BD004E00F60753 /* CalendarViewController.swift */; };
+		83FCBA4322DF084600209756 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FCBA4222DF084600209756 /* WebViewController.swift */; };
+		AE4A4F4722E82DCE008D2483 /* Model_New_Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A4F4622E82DCE008D2483 /* Model_New_Achievement.swift */; };
+		AE4A4F4A22E83111008D2483 /* NewAchivements_VC+Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A4F4922E83111008D2483 /* NewAchivements_VC+Function.swift */; };
+		AE4A4F4C22E88293008D2483 /* Calendar_VC+Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A4F4B22E88293008D2483 /* Calendar_VC+Function.swift */; };
+		AE7B1D8C22EF1F280000BD75 /* Model_NewAchiev_PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7B1D8B22EF1F280000BD75 /* Model_NewAchiev_PopUp.swift */; };
+		AE7B1D8E22EF29750000BD75 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7B1D8D22EF29750000BD75 /* Helper.swift */; };
+		AE7B1D9022F010FE0000BD75 /* Model_CreateGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7B1D8F22F010FE0000BD75 /* Model_CreateGoal.swift */; };
+		AE90D12D22E9DC6C007687A2 /* Model_Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE90D12C22E9DC6C007687A2 /* Model_Achievement.swift */; };
+		AE9D312422F0887E00EDD2F8 /* uncheck_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = AE9D312222F0887D00EDD2F8 /* uncheck_gray.png */; };
+		AE9D312522F0887E00EDD2F8 /* check_skyBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = AE9D312322F0887E00EDD2F8 /* check_skyBlue.png */; };
+		AEF6DFAB22F03E680065796F /* Add_Goal_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF6DFAA22F03E680065796F /* Add_Goal_TableViewCell.swift */; };
+		AEF6DFAD22F03E730065796F /* Add_Task_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF6DFAC22F03E730065796F /* Add_Task_TableViewCell.swift */; };
+		AEF6DFAF22F03FE10065796F /* Add_More_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF6DFAE22F03FE10065796F /* Add_More_TableViewCell.swift */; };
+		BC2422CC23100F0100ED2591 /* Model_CreateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2422CB23100F0100ED2591 /* Model_CreateList.swift */; };
+		C41FC5C12302E09500D1BF8A /* tasks.png in Resources */ = {isa = PBXBuildFile; fileRef = C41FC5BF2302E09300D1BF8A /* tasks.png */; };
+		C41FC5C22302E09500D1BF8A /* goal.png in Resources */ = {isa = PBXBuildFile; fileRef = C41FC5C02302E09400D1BF8A /* goal.png */; };
+		C43BF5142313F828001C1F19 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43BF5132313F827001C1F19 /* CoreData.framework */; };
+		C43BF5162313F9C4001C1F19 /* CD_Manger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43BF5152313F9C4001C1F19 /* CD_Manger.swift */; };
+		C45B33B22302CD60009708B7 /* downs.png in Resources */ = {isa = PBXBuildFile; fileRef = C45B33AF2302CD5C009708B7 /* downs.png */; };
+		C45B33B32302CD60009708B7 /* down-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C45B33B02302CD5D009708B7 /* down-arrow.png */; };
+		C45B33B42302CD60009708B7 /* medal.png in Resources */ = {isa = PBXBuildFile; fileRef = C45B33B12302CD5E009708B7 /* medal.png */; };
+		C45C141E230BF5280069E5CD /* cancel-blackk.png in Resources */ = {isa = PBXBuildFile; fileRef = C45C141D230BF5270069E5CD /* cancel-blackk.png */; };
+		C45D1ECF2313C2F7007F27CF /* Model_Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D1ECE2313C2F7007F27CF /* Model_Settings.swift */; };
+		C45D1ED12313E1C7007F27CF /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = C45D1ED02313E1C5007F27CF /* logout.png */; };
+		C45D40C42313B127003C2495 /* Change_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D40C32313B127003C2495 /* Change_VC.swift */; };
+		C45D40C62313B299003C2495 /* Model_Change.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D40C52313B299003C2495 /* Model_Change.swift */; };
+		C45E9CF52302D1BB00EA0E16 /* ups.png in Resources */ = {isa = PBXBuildFile; fileRef = C45E9CF42302D1BA00EA0E16 /* ups.png */; };
+		C45F0E83230D841600D12371 /* Model_Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F0E82230D841600D12371 /* Model_Goal.swift */; };
+		C46EE060230D055700573451 /* GradientView_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46EE05F230D055700573451 /* GradientView_VC.swift */; };
+		C4D8A43D230D3B8700547E50 /* Model_Due_Next.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D8A43C230D3B8700547E50 /* Model_Due_Next.swift */; };
+		D78F011522C49DB4008FBED8 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78F011422C49DB4008FBED8 /* Switch.swift */; };
+		D7BD480322D46C6600D173B3 /* TempletesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BD480222D46C6600D173B3 /* TempletesViewController.swift */; };
+		FA51E0BD23796B050095DDEA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7B1D8522EF12B80000BD75 /* FBSDKCoreKit.framework */; };
+		FA51E0BE23796B050095DDEA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7B1D8622EF12B90000BD75 /* FBSDKLoginKit.framework */; };
+		FA51E0BF23796B050095DDEA /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7B1D8722EF12B90000BD75 /* FBSDKShareKit.framework */; };
+		FA51E0C223797D660095DDEA /* woleap_database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA51E0C023797D660095DDEA /* woleap_database.xcdatamodeld */; };
+		FA51E0C4237985A00095DDEA /* model_login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51E0C3237985A00095DDEA /* model_login.swift */; };
+		FA78FE39237AE10F004064F2 /* model_home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA78FE38237AE10F004064F2 /* model_home.swift */; };
+		FAF8E3A3237BD16F009D43A0 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8E3A2237BD16F009D43A0 /* DatePickerDialog.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04862E2C22FD747700B85230 /* Woleap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Woleap.entitlements; sourceTree = "<group>"; };
+		0DC917A3565B6EF72B50E1B9 /* Pods-Woleap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Woleap.release.xcconfig"; path = "Target Support Files/Pods-Woleap/Pods-Woleap.release.xcconfig"; sourceTree = "<group>"; };
+		8304AC2322C0EC53004E0D60 /* TechPopupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechPopupTableViewCell.swift; sourceTree = "<group>"; };
+		8312746D22DF15EA006CC208 /* Splash_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash_ViewController.swift; sourceTree = "<group>"; };
+		8312746F22DF161E006CC208 /* Model_Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Splash.swift; sourceTree = "<group>"; };
+		8312747122DF23B0006CC208 /* Model_Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Calendar.swift; sourceTree = "<group>"; };
+		8327E8BF22C22B410092A729 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		8327E8C122C22B8A0092A729 /* CreateGoal_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoal_ViewController.swift; sourceTree = "<group>"; };
+		8327E8C322C22ED90092A729 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		8327E8C522C22EF60092A729 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		8327E8C722C22F1B0092A729 /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		8327E8C922C231990092A729 /* CalendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTableViewCell.swift; sourceTree = "<group>"; };
+		8327E8CB22C23DEA0092A729 /* Calender2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calender2TableViewCell.swift; sourceTree = "<group>"; };
+		834A725F22C2444F0014924B /* CurveFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveFunc.swift; sourceTree = "<group>"; };
+		834A726122C255D20014924B /* AchivementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchivementTableViewCell.swift; sourceTree = "<group>"; };
+		834ABA6122BCD2200075D9E8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		834B97BD22E1A85D00133BA2 /* Due_Next_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Due_Next_ViewController.swift; sourceTree = "<group>"; };
+		836480BF22C32FA80067DDEB /* GoalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTableViewCell.swift; sourceTree = "<group>"; };
+		836480C322C338250067DDEB /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		8370B7AA22C09E94006364F6 /* AchivementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchivementViewController.swift; sourceTree = "<group>"; };
+		8370B7AC22C09EF4006364F6 /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		8385095922E1E26000494945 /* check-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-blue.png"; sourceTree = "<group>"; };
+		8385095B22E1E6C600494945 /* uncheck-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uncheck-green.png"; sourceTree = "<group>"; };
+		8385095D22E1FD1D00494945 /* Business_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_TableViewCell.swift; sourceTree = "<group>"; };
+		8385095F22E1FD3100494945 /* Technology_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technology_TableViewCell.swift; sourceTree = "<group>"; };
+		838F0AED22E1C96C00E7572F /* Tag_Goal_CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag_Goal_CollectionViewCell.swift; sourceTree = "<group>"; };
+		839D6B3322BCA6E700DA330D /* Woleap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Woleap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		839D6B3622BCA6E700DA330D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		839D6B3B22BCA6E700DA330D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		839D6B3D22BCA6E900DA330D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		839D6B4022BCA6E900DA330D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		839D6B4222BCA6E900DA330D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839D6B4822BCAC0700DA330D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		839D6B4C22BCAC7F00DA330D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		83B044C722E18A1200856012 /* New_Achiv_PopUp_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Achiv_PopUp_ViewController.swift; sourceTree = "<group>"; };
+		83B044C922E18F1B00856012 /* Date_Picker_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date_Picker_ViewController.swift; sourceTree = "<group>"; };
+		83C5698C22C0D5CC00004110 /* NewAchivementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAchivementsViewController.swift; sourceTree = "<group>"; };
+		83EA431B22DDE5270052D0AC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		83EA431D22DDE7B00052D0AC /* JJHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJHUD.swift; sourceTree = "<group>"; };
+		83EA431F22DDE82C0052D0AC /* APIFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFunc.swift; sourceTree = "<group>"; };
+		83EA432122DDE8C60052D0AC /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		83EA432322DDF2500052D0AC /* Model_Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Register.swift; sourceTree = "<group>"; };
+		83EBDD9C22BD004E00F60753 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		83FCBA4222DF084600209756 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		8C316D43D1A3B068ED4024B1 /* Pods_Woleap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Woleap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4A4F4622E82DCE008D2483 /* Model_New_Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_New_Achievement.swift; sourceTree = "<group>"; };
+		AE4A4F4922E83111008D2483 /* NewAchivements_VC+Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewAchivements_VC+Function.swift"; sourceTree = "<group>"; };
+		AE4A4F4B22E88293008D2483 /* Calendar_VC+Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar_VC+Function.swift"; sourceTree = "<group>"; };
+		AE7B1D8522EF12B80000BD75 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		AE7B1D8622EF12B90000BD75 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		AE7B1D8722EF12B90000BD75 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		AE7B1D8B22EF1F280000BD75 /* Model_NewAchiev_PopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_NewAchiev_PopUp.swift; sourceTree = "<group>"; };
+		AE7B1D8D22EF29750000BD75 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		AE7B1D8F22F010FE0000BD75 /* Model_CreateGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_CreateGoal.swift; sourceTree = "<group>"; };
+		AE90D12C22E9DC6C007687A2 /* Model_Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Achievement.swift; sourceTree = "<group>"; };
+		AE9D312222F0887D00EDD2F8 /* uncheck_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck_gray.png; sourceTree = "<group>"; };
+		AE9D312322F0887E00EDD2F8 /* check_skyBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_skyBlue.png; sourceTree = "<group>"; };
+		AEF6DFAA22F03E680065796F /* Add_Goal_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_Goal_TableViewCell.swift; sourceTree = "<group>"; };
+		AEF6DFAC22F03E730065796F /* Add_Task_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_Task_TableViewCell.swift; sourceTree = "<group>"; };
+		AEF6DFAE22F03FE10065796F /* Add_More_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_More_TableViewCell.swift; sourceTree = "<group>"; };
+		BC2422CB23100F0100ED2591 /* Model_CreateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_CreateList.swift; sourceTree = "<group>"; };
+		C41FC5BF2302E09300D1BF8A /* tasks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tasks.png; sourceTree = "<group>"; };
+		C41FC5C02302E09400D1BF8A /* goal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goal.png; sourceTree = "<group>"; };
+		C43BF5132313F827001C1F19 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C43BF5152313F9C4001C1F19 /* CD_Manger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CD_Manger.swift; sourceTree = "<group>"; };
+		C45B33AF2302CD5C009708B7 /* downs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downs.png; sourceTree = "<group>"; };
+		C45B33B02302CD5D009708B7 /* down-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down-arrow.png"; sourceTree = "<group>"; };
+		C45B33B12302CD5E009708B7 /* medal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medal.png; sourceTree = "<group>"; };
+		C45C141D230BF5270069E5CD /* cancel-blackk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel-blackk.png"; sourceTree = "<group>"; };
+		C45D1ECE2313C2F7007F27CF /* Model_Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Settings.swift; sourceTree = "<group>"; };
+		C45D1ED02313E1C5007F27CF /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		C45D40C32313B127003C2495 /* Change_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Change_VC.swift; sourceTree = "<group>"; };
+		C45D40C52313B299003C2495 /* Model_Change.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Change.swift; sourceTree = "<group>"; };
+		C45E9CF42302D1BA00EA0E16 /* ups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ups.png; sourceTree = "<group>"; };
+		C45F0E82230D841600D12371 /* Model_Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Goal.swift; sourceTree = "<group>"; };
+		C46EE05F230D055700573451 /* GradientView_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView_VC.swift; sourceTree = "<group>"; };
+		C4D8A43C230D3B8700547E50 /* Model_Due_Next.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Due_Next.swift; sourceTree = "<group>"; };
+		D78F011422C49DB4008FBED8 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		D7BD480222D46C6600D173B3 /* TempletesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempletesViewController.swift; sourceTree = "<group>"; };
+		FA51E0C123797D660095DDEA /* woleap_database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = woleap_database.xcdatamodel; sourceTree = "<group>"; };
+		FA51E0C3237985A00095DDEA /* model_login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model_login.swift; sourceTree = "<group>"; };
+		FA78FE38237AE10F004064F2 /* model_home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model_home.swift; sourceTree = "<group>"; };
+		FAF8E3A2237BD16F009D43A0 /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		FB1A17438D97D392ACBFCFFE /* Pods-Woleap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Woleap.debug.xcconfig"; path = "Target Support Files/Pods-Woleap/Pods-Woleap.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839D6B3022BCA6E700DA330D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA51E0BD23796B050095DDEA /* FBSDKCoreKit.framework in Frameworks */,
+				FA51E0BE23796B050095DDEA /* FBSDKLoginKit.framework in Frameworks */,
+				FA51E0BF23796B050095DDEA /* FBSDKShareKit.framework in Frameworks */,
+				C43BF5142313F828001C1F19 /* CoreData.framework in Frameworks */,
+				5D710E012E76F3C970596709 /* Pods_Woleap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		834A725E22C244370014924B /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				834A725F22C2444F0014924B /* CurveFunc.swift */,
+				839D6B4822BCAC0700DA330D /* File.swift */,
+				D78F011422C49DB4008FBED8 /* Switch.swift */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		834A726322C256170014924B /* CalendarVC */ = {
+			isa = PBXGroup;
+			children = (
+				83EBDD9C22BD004E00F60753 /* CalendarViewController.swift */,
+				8327E8C922C231990092A729 /* CalendarTableViewCell.swift */,
+				8327E8CB22C23DEA0092A729 /* Calender2TableViewCell.swift */,
+			);
+			path = CalendarVC;
+			sourceTree = "<group>";
+		};
+		834A726422C256300014924B /* AchivementVC */ = {
+			isa = PBXGroup;
+			children = (
+				8370B7AA22C09E94006364F6 /* AchivementViewController.swift */,
+				834A726122C255D20014924B /* AchivementTableViewCell.swift */,
+			);
+			path = AchivementVC;
+			sourceTree = "<group>";
+		};
+		836480BE22C32F910067DDEB /* GoalVC */ = {
+			isa = PBXGroup;
+			children = (
+				8370B7AC22C09EF4006364F6 /* GoalViewController.swift */,
+				836480BF22C32FA80067DDEB /* GoalTableViewCell.swift */,
+			);
+			path = GoalVC;
+			sourceTree = "<group>";
+		};
+		836480C122C3348B0067DDEB /* TechPopupVC */ = {
+			isa = PBXGroup;
+			children = (
+				8304AC2322C0EC53004E0D60 /* TechPopupTableViewCell.swift */,
+			);
+			path = TechPopupVC;
+			sourceTree = "<group>";
+		};
+		836480C222C338070067DDEB /* ListVC */ = {
+			isa = PBXGroup;
+			children = (
+				8327E8BF22C22B410092A729 /* ListViewController.swift */,
+				836480C322C338250067DDEB /* ListTableViewCell.swift */,
+			);
+			path = ListVC;
+			sourceTree = "<group>";
+		};
+		838F0AEF22E1CBCE00E7572F /* New_Achiv_PopUp_ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				83B044C722E18A1200856012 /* New_Achiv_PopUp_ViewController.swift */,
+			);
+			path = New_Achiv_PopUp_ViewController;
+			sourceTree = "<group>";
+		};
+		838F0AF022E1CCA300E7572F /* NewAchivementsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				83C5698C22C0D5CC00004110 /* NewAchivementsViewController.swift */,
+				838F0AED22E1C96C00E7572F /* Tag_Goal_CollectionViewCell.swift */,
+				8385095D22E1FD1D00494945 /* Business_TableViewCell.swift */,
+				8385095F22E1FD3100494945 /* Technology_TableViewCell.swift */,
+			);
+			path = NewAchivementsViewController;
+			sourceTree = "<group>";
+		};
+		839D6B2A22BCA6E700DA330D = {
+			isa = PBXGroup;
+			children = (
+				839D6B3522BCA6E700DA330D /* Woleap */,
+				839D6B3422BCA6E700DA330D /* Products */,
+				FB7DD27FD7F8E006C916CF52 /* Pods */,
+				AA599FAA082A1AF9A05000CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		839D6B3422BCA6E700DA330D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839D6B3322BCA6E700DA330D /* Woleap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839D6B3522BCA6E700DA330D /* Woleap */ = {
+			isa = PBXGroup;
+			children = (
+				04862E2C22FD747700B85230 /* Woleap.entitlements */,
+				FA51E0BC237964F80095DDEA /* frameworks */,
+				AE4A4F4822E83104008D2483 /* Extension */,
+				FAD22E0323786690007DFE59 /* images */,
+				AEF6DFA922F03E290065796F /* TableViewCell */,
+				83EA431A22DDE5090052D0AC /* Common-Classes */,
+				83EA431722DDE4C10052D0AC /* Models */,
+				834A725E22C244370014924B /* Function */,
+				839D6B4B22BCAC6600DA330D /* View Controllers */,
+				839D6B3622BCA6E700DA330D /* AppDelegate.swift */,
+				839D6B3A22BCA6E700DA330D /* Main.storyboard */,
+				839D6B3D22BCA6E900DA330D /* Assets.xcassets */,
+				839D6B3F22BCA6E900DA330D /* LaunchScreen.storyboard */,
+				839D6B4222BCA6E900DA330D /* Info.plist */,
+				C43BF5152313F9C4001C1F19 /* CD_Manger.swift */,
+				FA51E0C023797D660095DDEA /* woleap_database.xcdatamodeld */,
+			);
+			path = Woleap;
+			sourceTree = "<group>";
+		};
+		839D6B4B22BCAC6600DA330D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C45D1ECC2313C0FB007F27CF /* Change_VC */,
+				D7BD480122D46C1000D173B3 /* templetesvc */,
+				834A726322C256170014924B /* CalendarVC */,
+				834A726422C256300014924B /* AchivementVC */,
+				836480BE22C32F910067DDEB /* GoalVC */,
+				836480C222C338070067DDEB /* ListVC */,
+				836480C122C3348B0067DDEB /* TechPopupVC */,
+				83FCBA4222DF084600209756 /* WebViewController.swift */,
+				839D6B4C22BCAC7F00DA330D /* LoginViewController.swift */,
+				834ABA6122BCD2200075D9E8 /* RegisterViewController.swift */,
+				838F0AF022E1CCA300E7572F /* NewAchivementsViewController */,
+				8327E8C122C22B8A0092A729 /* CreateGoal_ViewController.swift */,
+				8327E8C322C22ED90092A729 /* NotificationViewController.swift */,
+				C45D1ECD2313C10E007F27CF /* SettingViewController */,
+				8327E8C722C22F1B0092A729 /* ReportsViewController.swift */,
+				8312746D22DF15EA006CC208 /* Splash_ViewController.swift */,
+				838F0AEF22E1CBCE00E7572F /* New_Achiv_PopUp_ViewController */,
+				834B97BD22E1A85D00133BA2 /* Due_Next_ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		83EA431722DDE4C10052D0AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83EA432322DDF2500052D0AC /* Model_Register.swift */,
+				8312746F22DF161E006CC208 /* Model_Splash.swift */,
+				8312747122DF23B0006CC208 /* Model_Calendar.swift */,
+				AE4A4F4622E82DCE008D2483 /* Model_New_Achievement.swift */,
+				AE90D12C22E9DC6C007687A2 /* Model_Achievement.swift */,
+				AE7B1D8B22EF1F280000BD75 /* Model_NewAchiev_PopUp.swift */,
+				AE7B1D8F22F010FE0000BD75 /* Model_CreateGoal.swift */,
+				C4D8A43C230D3B8700547E50 /* Model_Due_Next.swift */,
+				C45F0E82230D841600D12371 /* Model_Goal.swift */,
+				BC2422CB23100F0100ED2591 /* Model_CreateList.swift */,
+				FA51E0C3237985A00095DDEA /* model_login.swift */,
+				FA78FE38237AE10F004064F2 /* model_home.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		83EA431A22DDE5090052D0AC /* Common-Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FAF8E3A2237BD16F009D43A0 /* DatePickerDialog.swift */,
+				83EA431B22DDE5270052D0AC /* Constant.swift */,
+				83EA431D22DDE7B00052D0AC /* JJHUD.swift */,
+				83EA431F22DDE82C0052D0AC /* APIFunc.swift */,
+				83EA432122DDE8C60052D0AC /* Reachability.swift */,
+				83B044C922E18F1B00856012 /* Date_Picker_ViewController.swift */,
+				AE7B1D8D22EF29750000BD75 /* Helper.swift */,
+				C46EE05F230D055700573451 /* GradientView_VC.swift */,
+			);
+			path = "Common-Classes";
+			sourceTree = "<group>";
+		};
+		AA599FAA082A1AF9A05000CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C43BF5132313F827001C1F19 /* CoreData.framework */,
+				8C316D43D1A3B068ED4024B1 /* Pods_Woleap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE4A4F4822E83104008D2483 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A4F4922E83111008D2483 /* NewAchivements_VC+Function.swift */,
+				AE4A4F4B22E88293008D2483 /* Calendar_VC+Function.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AEF6DFA922F03E290065796F /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				AEF6DFAA22F03E680065796F /* Add_Goal_TableViewCell.swift */,
+				AEF6DFAC22F03E730065796F /* Add_Task_TableViewCell.swift */,
+				AEF6DFAE22F03FE10065796F /* Add_More_TableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		C45D1ECC2313C0FB007F27CF /* Change_VC */ = {
+			isa = PBXGroup;
+			children = (
+				C45D40C32313B127003C2495 /* Change_VC.swift */,
+				C45D40C52313B299003C2495 /* Model_Change.swift */,
+			);
+			path = Change_VC;
+			sourceTree = "<group>";
+		};
+		C45D1ECD2313C10E007F27CF /* SettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8327E8C522C22EF60092A729 /* SettingViewController.swift */,
+				C45D1ECE2313C2F7007F27CF /* Model_Settings.swift */,
+			);
+			path = SettingViewController;
+			sourceTree = "<group>";
+		};
+		D7BD480122D46C1000D173B3 /* templetesvc */ = {
+			isa = PBXGroup;
+			children = (
+				D7BD480222D46C6600D173B3 /* TempletesViewController.swift */,
+			);
+			path = templetesvc;
+			sourceTree = "<group>";
+		};
+		FA51E0BC237964F80095DDEA /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE7B1D8522EF12B80000BD75 /* FBSDKCoreKit.framework */,
+				AE7B1D8622EF12B90000BD75 /* FBSDKLoginKit.framework */,
+				AE7B1D8722EF12B90000BD75 /* FBSDKShareKit.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		FAD22E0323786690007DFE59 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8385095922E1E26000494945 /* check-blue.png */,
+				C45B33AF2302CD5C009708B7 /* downs.png */,
+				C45B33B02302CD5D009708B7 /* down-arrow.png */,
+				C45B33B12302CD5E009708B7 /* medal.png */,
+				8385095B22E1E6C600494945 /* uncheck-green.png */,
+				C45C141D230BF5270069E5CD /* cancel-blackk.png */,
+				C41FC5C02302E09400D1BF8A /* goal.png */,
+				C41FC5BF2302E09300D1BF8A /* tasks.png */,
+				AE9D312222F0887D00EDD2F8 /* uncheck_gray.png */,
+				C45D1ED02313E1C5007F27CF /* logout.png */,
+				C45E9CF42302D1BA00EA0E16 /* ups.png */,
+				AE9D312322F0887E00EDD2F8 /* check_skyBlue.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		FB7DD27FD7F8E006C916CF52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB1A17438D97D392ACBFCFFE /* Pods-Woleap.debug.xcconfig */,
+				0DC917A3565B6EF72B50E1B9 /* Pods-Woleap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		839D6B3222BCA6E700DA330D /* Woleap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839D6B4522BCA6E900DA330D /* Build configuration list for PBXNativeTarget "Woleap" */;
+			buildPhases = (
+				4A9CDBF09767B8D91F2ABE62 /* [CP] Check Pods Manifest.lock */,
+				839D6B2F22BCA6E700DA330D /* Sources */,
+				839D6B3022BCA6E700DA330D /* Frameworks */,
+				839D6B3122BCA6E700DA330D /* Resources */,
+				EBE2EA2DF071E8923A3D0F0E /* [CP] Embed Pods Frameworks */,
+				24154F38BA4DA5C94D2997C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Woleap;
+			productName = Woleap;
+			productReference = 839D6B3322BCA6E700DA330D /* Woleap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839D6B2B22BCA6E700DA330D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = appentus;
+				TargetAttributes = {
+					839D6B3222BCA6E700DA330D = {
+						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 839D6B2E22BCA6E700DA330D /* Build configuration list for PBXProject "Woleap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839D6B2A22BCA6E700DA330D;
+			productRefGroup = 839D6B3422BCA6E700DA330D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839D6B3222BCA6E700DA330D /* Woleap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		839D6B3122BCA6E700DA330D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45B33B22302CD60009708B7 /* downs.png in Resources */,
+				AE9D312422F0887E00EDD2F8 /* uncheck_gray.png in Resources */,
+				C45D1ED12313E1C7007F27CF /* logout.png in Resources */,
+				C41FC5C12302E09500D1BF8A /* tasks.png in Resources */,
+				C45E9CF52302D1BB00EA0E16 /* ups.png in Resources */,
+				8385095C22E1E6C700494945 /* uncheck-green.png in Resources */,
+				C45B33B42302CD60009708B7 /* medal.png in Resources */,
+				8385095A22E1E26100494945 /* check-blue.png in Resources */,
+				839D6B4122BCA6E900DA330D /* LaunchScreen.storyboard in Resources */,
+				839D6B3E22BCA6E900DA330D /* Assets.xcassets in Resources */,
+				C45C141E230BF5280069E5CD /* cancel-blackk.png in Resources */,
+				C41FC5C22302E09500D1BF8A /* goal.png in Resources */,
+				839D6B3C22BCA6E700DA330D /* Main.storyboard in Resources */,
+				C45B33B32302CD60009708B7 /* down-arrow.png in Resources */,
+				AE9D312522F0887E00EDD2F8 /* check_skyBlue.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24154F38BA4DA5C94D2997C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Woleap/Pods-Woleap-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Woleap/Pods-Woleap-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Woleap/Pods-Woleap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A9CDBF09767B8D91F2ABE62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Woleap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBE2EA2DF071E8923A3D0F0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Woleap/Pods-Woleap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Woleap/Pods-Woleap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Woleap/Pods-Woleap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839D6B2F22BCA6E700DA330D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8370B7AD22C09EF4006364F6 /* GoalViewController.swift in Sources */,
+				BC2422CC23100F0100ED2591 /* Model_CreateList.swift in Sources */,
+				83C5698D22C0D5CC00004110 /* NewAchivementsViewController.swift in Sources */,
+				D78F011522C49DB4008FBED8 /* Switch.swift in Sources */,
+				834A726022C2444F0014924B /* CurveFunc.swift in Sources */,
+				8327E8C222C22B8A0092A729 /* CreateGoal_ViewController.swift in Sources */,
+				AE4A4F4A22E83111008D2483 /* NewAchivements_VC+Function.swift in Sources */,
+				83EA432222DDE8C60052D0AC /* Reachability.swift in Sources */,
+				83EBDD9D22BD004E00F60753 /* CalendarViewController.swift in Sources */,
+				834A726222C255D20014924B /* AchivementTableViewCell.swift in Sources */,
+				AEF6DFAD22F03E730065796F /* Add_Task_TableViewCell.swift in Sources */,
+				8327E8C622C22EF60092A729 /* SettingViewController.swift in Sources */,
+				AE4A4F4C22E88293008D2483 /* Calendar_VC+Function.swift in Sources */,
+				C45D1ECF2313C2F7007F27CF /* Model_Settings.swift in Sources */,
+				AE7B1D8E22EF29750000BD75 /* Helper.swift in Sources */,
+				836480C022C32FA80067DDEB /* GoalTableViewCell.swift in Sources */,
+				C45D40C62313B299003C2495 /* Model_Change.swift in Sources */,
+				8385095E22E1FD1D00494945 /* Business_TableViewCell.swift in Sources */,
+				AEF6DFAB22F03E680065796F /* Add_Goal_TableViewCell.swift in Sources */,
+				8312747022DF161E006CC208 /* Model_Splash.swift in Sources */,
+				83B044CA22E18F1C00856012 /* Date_Picker_ViewController.swift in Sources */,
+				839D6B4D22BCAC7F00DA330D /* LoginViewController.swift in Sources */,
+				8327E8CA22C231990092A729 /* CalendarTableViewCell.swift in Sources */,
+				8327E8C822C22F1B0092A729 /* ReportsViewController.swift in Sources */,
+				83B044C822E18A1200856012 /* New_Achiv_PopUp_ViewController.swift in Sources */,
+				8327E8C022C22B410092A729 /* ListViewController.swift in Sources */,
+				8385096022E1FD3100494945 /* Technology_TableViewCell.swift in Sources */,
+				8327E8CC22C23DEA0092A729 /* Calender2TableViewCell.swift in Sources */,
+				836480C422C338250067DDEB /* ListTableViewCell.swift in Sources */,
+				83EA431C22DDE5270052D0AC /* Constant.swift in Sources */,
+				8370B7AB22C09E94006364F6 /* AchivementViewController.swift in Sources */,
+				C4D8A43D230D3B8700547E50 /* Model_Due_Next.swift in Sources */,
+				FA51E0C223797D660095DDEA /* woleap_database.xcdatamodeld in Sources */,
+				8304AC2422C0EC53004E0D60 /* TechPopupTableViewCell.swift in Sources */,
+				83FCBA4322DF084600209756 /* WebViewController.swift in Sources */,
+				D7BD480322D46C6600D173B3 /* TempletesViewController.swift in Sources */,
+				834B97BE22E1A85E00133BA2 /* Due_Next_ViewController.swift in Sources */,
+				FAF8E3A3237BD16F009D43A0 /* DatePickerDialog.swift in Sources */,
+				C45F0E83230D841600D12371 /* Model_Goal.swift in Sources */,
+				AE4A4F4722E82DCE008D2483 /* Model_New_Achievement.swift in Sources */,
+				AE90D12D22E9DC6C007687A2 /* Model_Achievement.swift in Sources */,
+				83EA431E22DDE7B00052D0AC /* JJHUD.swift in Sources */,
+				AEF6DFAF22F03FE10065796F /* Add_More_TableViewCell.swift in Sources */,
+				FA51E0C4237985A00095DDEA /* model_login.swift in Sources */,
+				C45D40C42313B127003C2495 /* Change_VC.swift in Sources */,
+				AE7B1D9022F010FE0000BD75 /* Model_CreateGoal.swift in Sources */,
+				8327E8C422C22ED90092A729 /* NotificationViewController.swift in Sources */,
+				8312747222DF23B0006CC208 /* Model_Calendar.swift in Sources */,
+				839D6B4922BCAC0700DA330D /* File.swift in Sources */,
+				C46EE060230D055700573451 /* GradientView_VC.swift in Sources */,
+				8312746E22DF15EA006CC208 /* Splash_ViewController.swift in Sources */,
+				FA78FE39237AE10F004064F2 /* model_home.swift in Sources */,
+				83EA432422DDF2500052D0AC /* Model_Register.swift in Sources */,
+				838F0AEE22E1C96C00E7572F /* Tag_Goal_CollectionViewCell.swift in Sources */,
+				839D6B3722BCA6E700DA330D /* AppDelegate.swift in Sources */,
+				83EA432022DDE82C0052D0AC /* APIFunc.swift in Sources */,
+				834ABA6222BCD2200075D9E8 /* RegisterViewController.swift in Sources */,
+				C43BF5162313F9C4001C1F19 /* CD_Manger.swift in Sources */,
+				AE7B1D8C22EF1F280000BD75 /* Model_NewAchiev_PopUp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		839D6B3A22BCA6E700DA330D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839D6B3B22BCA6E700DA330D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		839D6B3F22BCA6E900DA330D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839D6B4022BCA6E900DA330D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		839D6B4322BCA6E900DA330D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		839D6B4422BCA6E900DA330D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839D6B4622BCA6E900DA330D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB1A17438D97D392ACBFCFFE /* Pods-Woleap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Woleap/Woleap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4B73FJ2U9F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Woleap",
+					"$(PROJECT_DIR)/Woleap/frameworks",
+				);
+				INFOPLIST_FILE = Woleap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appentus.Woleap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		839D6B4722BCA6E900DA330D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC917A3565B6EF72B50E1B9 /* Pods-Woleap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Woleap/Woleap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4B73FJ2U9F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Woleap",
+					"$(PROJECT_DIR)/Woleap/frameworks",
+				);
+				INFOPLIST_FILE = Woleap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appentus.Woleap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839D6B2E22BCA6E700DA330D /* Build configuration list for PBXProject "Woleap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839D6B4322BCA6E900DA330D /* Debug */,
+				839D6B4422BCA6E900DA330D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839D6B4522BCA6E900DA330D /* Build configuration list for PBXNativeTarget "Woleap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839D6B4622BCA6E900DA330D /* Debug */,
+				839D6B4722BCA6E900DA330D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA51E0C023797D660095DDEA /* woleap_database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA51E0C123797D660095DDEA /* woleap_database.xcdatamodel */,
+			);
+			currentVersion = FA51E0C123797D660095DDEA /* woleap_database.xcdatamodel */;
+			path = woleap_database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 839D6B2B22BCA6E700DA330D /* Project object */;
+}
